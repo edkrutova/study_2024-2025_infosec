@@ -17,7 +17,7 @@ babel-otherlangs: english
 toc: false
 toc-title: Содержание
 slide_level: 2
-aspectratio: 169
+aspectratio: 43
 section-titles: true
 theme: metropolis
 header-includes: 
@@ -36,11 +36,11 @@ section-titles: true
 :::::::::::::: {.columns align=center}
 ::: {.column width="70%"}
 
-  * Крутова Екатерина Дмитриевна
-  * студентка группы НПИбд-01-21
-  * Российский университет дружбы народов
-  * [1032216536@pfur.ru](mailto:1032216536@pfur.ru)
-  * <https://edkrutova.github.io/ru/>
+* Крутова Екатерина Дмитриевна
+* студентка группы НПИбд-01-21
+* Российский университет дружбы народов
+* [1032216536@pfur.ru](mailto:1032216536@pfur.ru)
+* <https://edkrutova.github.io/ru/>
 
 :::
 ::: {.column width="30%"}
@@ -91,13 +91,13 @@ section-titles: true
 
 Учётная запись пользователя в Linux содержит следующую информацию:
 
-- Имя пользователя,
-- Пароль,
-- UID (User ID),
-- GID (Group ID),
-- Домашний каталог,
-- Оболочка (Shell),
-- Информация о пользователе.
+* Имя пользователя,
+* Пароль,
+* UID (User ID),
+* GID (Group ID),
+* Домашний каталог,
+* Оболочка (Shell),
+* Информация о пользователе.
 
 2. Как удалить зависший процесс?
 
