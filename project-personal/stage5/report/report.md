@@ -1,8 +1,8 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+title: "Индивидуальный проект"
+subtitle: "Этап 5"
+author: "Крутова Екатерина Дмитриевна"
 
 ## Generic otions
 lang: ru-RU
@@ -33,16 +33,14 @@ polyglossia-otherlangs:
 babel-lang: russian
 babel-otherlangs: english
 ## Fonts
-mainfont: IBM Plex Serif
-romanfont: IBM Plex Serif
-sansfont: IBM Plex Sans
-monofont: IBM Plex Mono
-mathfont: STIX Two Math
-mainfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
-romanfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
-sansfontoptions: Ligatures=Common,Ligatures=TeX,Scale=MatchLowercase,Scale=0.94
-monofontoptions: Scale=MatchLowercase,Scale=0.94,FakeStretch=0.9
-mathfontoptions:
+mainfont: PT Serif
+romanfont: PT Serif
+sansfont: PT Sans
+monofont: PT Mono
+mainfontoptions: Ligatures=TeX
+romanfontoptions: Ligatures=TeX
+sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
+monofontoptions: Scale=MatchLowercase,Scale=0.9
 ## Biblatex
 biblatex: true
 biblio-style: "gost-numeric"
@@ -70,52 +68,24 @@ header-includes:
 
 # Цель работы
 
-Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
-
-Цель данного шаблона --- максимально упростить подготовку отчётов по
-лабораторным работам.  Модифицируя данный шаблон, студенты смогут без
-труда подготовить отчёт по лабораторным работам, а также познакомиться
-с основными возможностями разметки Markdown.
-
-# Задание
-
-Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
-
-# Теоретическое введение
-
-Здесь описываются теоретические аспекты, связанные с выполнением работы.
-
-Например, в табл. [-@tbl:std-dir] приведено краткое описание стандартных каталогов Unix.
-
-: Описание некоторых каталогов файловой системы GNU Linux {#tbl:std-dir}
-
-| Имя каталога | Описание каталога                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------------|
-| `/`          | Корневая директория, содержащая всю файловую                                                                               |
-| `/bin `      | Основные системные утилиты, необходимые как в однопользовательском режиме, так и при обычной работе всем пользователям     |
-| `/etc`       | Общесистемные конфигурационные файлы и файлы конфигурации установленных программ                                           |
-| `/home`      | Содержит домашние директории пользователей, которые, в свою очередь, содержат персональные настройки и данные пользователя |
-| `/media`     | Точки монтирования для сменных носителей                                                                                   |
-| `/root`      | Домашняя директория пользователя  `root`                                                                                   |
-| `/tmp`       | Временные файлы                                                                                                            |
-| `/usr`       | Вторичная иерархия для данных пользователя                                                                                 |
-
-Более подробно про Unix см. в [@tanenbaum_book_modern-os_ru; @robbins_book_bash_en; @zarrelli_book_mastering-bash_en; @newham_book_learning-bash_en].
+Целью данной работы является знакомство с Burp Suite.
 
 # Выполнение лабораторной работы
 
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001]).
+Выполнение работы (рис. [-@fig:001] - [-@fig:005]).
 
-![Название рисунка](image/placeimg_800_600_tech.jpg){#fig:001 width=70%}
+Burp Suite представляет собой набор мощных инструментов безопасности веб-приложений, которые демонстрируют реальные возможности злоумышленника, проникающего в веб-приложения. На Kali Linux nikto предустановлен.
+
+![Опциональные параметры Burp Suite](image/Screenshot_0.png){#fig:001 width=70%}
+
+![Создание проекта 1](image/Screenshot_1.png){#fig:002 width=70%}
+
+![Создание проекта 2](image/Screenshot_2.png){#fig:003 width=70%}
+
+![Перехват запросов](image/Screenshot_3.png){#fig:004 width=70%}
+
+![История запросов](image/Screenshot_4.png){#fig:005 width=70%}
 
 # Выводы
 
-Здесь кратко описываются итоги проделанной работы.
-
-# Список литературы{.unnumbered}
-
-::: {#refs}
-:::
+Я воспользовалась Burp Suite.
